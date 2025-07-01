@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modern CQC Style Website</title>
+    <style>
+        /* Reset default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #6c276a; /* Custom Purple */
+            color: #ffffff;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #6c276a; /* Custom Purple */
+            font-weight: bold;
+            margin: 0 20px;
+            font-size: 1.1rem;
+        }
+
+        nav a:hover {
+            color: #9b3f8b; /* Lighter purple for hover effect */
+        }
+
+        /* Main Content Styling */
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 30px;
+        }
+
+        .main-content section {
+            flex: 1;
+            background-color: #ffffff;
+            margin: 15px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .main-content h2 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        .main-content p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #9b3f8b; /* Lighter Purple */
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-weight: bold;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+
+        .cta-button:hover {
+            background-color: #6c276a; /* Custom Purple on hover */
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #6c276a; /* Custom Purple */
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Health & Social Care Quality Commission</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Care Providers</a>
+        <a href="#">Inspection Reports</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Section 1 -->
+        <section>
+            <h2>Our Mission</h2>
+            <p>The Health and Social Care Quality Commission is dedicated to ensuring quality care standards are maintained across various health and social care services.</p>
+            <a href="#" class="cta-button">Learn More</a>
+        </section>
+        
+        <!-- Section 2 -->
+        <section>
+            <h2>For Care Providers</h2>
+            <p>As a care provider, you are expected to meet a number of regulatory standards. Explore our resources and guidelines to help you improve care services.</p>
+            <a href="#" class="cta-button">Get Started</a>
+        </section>
+
+        <!-- Section 3 -->
+        <section>
+            <h2>Inspection Reports</h2>
+            <p>Find inspection reports, ratings, and other essential data to help you make informed decisions about care services.</p>
+            <a href="#" class="cta-button">Browse Reports</a>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Health & Social Care Quality Commission</p>
+        <p>
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="#">Accessibility</a>
+        </p>
+    </footer>
+</body>
+</html>
